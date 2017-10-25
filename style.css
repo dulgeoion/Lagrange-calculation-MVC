@@ -1,0 +1,42 @@
+@keyframes gradiendAnimation{
+	0% {background-color: #9fc3fc;}
+	10% {background-color: #94bdfc;}
+	20% {background-color: #89b7ff;}
+	30% {background-color: #77acff;}
+	40% {background-color: #6ba4ff;}
+	50% {background-color: #609dff;}
+	60% {background-color: #6ba4ff;}
+	70% {background-color: #77acff;}
+	80% {background-color: #89b7ff;}
+	90% {background-color: #94bdfc;}
+	100% {background-color: #9fc3fc;}
+
+}
+
+h1 {
+        color: white;
+	text-shadow: 0px 1px 3px black;
+}
+body {
+	background-color: white;
+	animation-name: gradiendAnimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+input {
+	padding: 3px 6px;
+	border-radius: 3%;
+	border: 1px solid grey;
+}
+td {
+	border: 1px solid grey;
+	padding: 3px 6px;
+	background-color: white;
+}
+
+input[type='button'] {
+	padding: 10px 10px;
+	border: 1px solid grey;
+}
